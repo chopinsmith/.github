@@ -1,0 +1,139 @@
+# 조직 전체 라벨 설정
+# 이 파일은 모든 레포지토리에서 사용할 표준 라벨을 정의합니다.
+
+# 🐛 버그 관련
+- name: "bug"
+  color: "d73a4a"
+  description: "버그나 오류"
+
+- name: "critical"
+  color: "b60205"
+  description: "긴급하게 수정이 필요한 버그"
+
+- name: "needs-reproduction"
+  color: "fef2c0"
+  description: "재현 단계가 필요한 버그"
+
+# 🚀 기능 관련
+- name: "enhancement"
+  color: "a2eeef"
+  description: "새로운 기능 또는 개선사항"
+
+- name: "feature"
+  color: "0e8a16"
+  description: "새로운 기능"
+
+- name: "improvement"
+  color: "5ebf00"
+  description: "기존 기능 개선"
+
+# 📝 문서 관련
+- name: "documentation"
+  color: "0075ca"
+  description: "문서 관련"
+
+- name: "docs"
+  color: "0075ca"
+  description: "문서 업데이트"
+
+# 🔧 개발 관련
+- name: "refactor"
+  color: "fbca04"
+  description: "코드 리팩토링"
+
+- name: "performance"
+  color: "ff9500"
+  description: "성능 개선"
+
+- name: "security"
+  color: "ee0701"
+  description: "보안 관련"
+
+- name: "dependencies"
+  color: "0366d6"
+  description: "의존성 관리"
+
+# 🎯 상태 관련
+- name: "needs-triage"
+  color: "ededed"
+  description: "검토가 필요한 이슈"
+
+- name: "in-progress"
+  color: "yellow"
+  description: "진행 중인 작업"
+
+- name: "blocked"
+  color: "d93f0b"
+  description: "차단된 작업"
+
+- name: "waiting-for-response"
+  color: "d4c5f9"
+  description: "답변 대기 중"
+
+# 🏷️ 카테고리
+- name: "frontend"
+  color: "1d76db"
+  description: "프론트엔드 관련"
+
+- name: "backend"
+  color: "0e8a16"
+  description: "백엔드 관련"
+
+- name: "ui/ux"
+  color: "e91e63"
+  description: "UI/UX 관련"
+
+- name: "mobile"
+  color: "795548"
+  description: "모바일 관련"
+
+- name: "api"
+  color: "0366d6"
+  description: "API 관련"
+
+- name: "database"
+  color: "5319e7"
+  description: "데이터베이스 관련"
+
+# 🚦 우선순위
+- name: "priority: high"
+  color: "d93f0b"
+  description: "높은 우선순위"
+
+- name: "priority: medium"
+  color: "fbca04"
+  description: "중간 우선순위"
+
+- name: "priority: low"
+  color: "0e8a16"
+  description: "낮은 우선순위"
+
+# 👥 기여자 관련
+- name: "good first issue"
+  color: "7057ff"
+  description: "신규 기여자에게 적합한 이슈"
+
+- name: "help wanted"
+  color: "008672"
+  description: "도움이 필요한 이슈"
+
+- name: "hacktoberfest"
+  color: "ff6b35"
+  description: "Hacktoberfest 이벤트 참여 가능"
+
+# 🔄 상태 변경
+- name: "duplicate"
+  color: "cfd3d7"
+  description: "중복된 이슈"
+
+- name: "wontfix"
+  color: "ffffff"
+  description: "수정하지 않을 이슈"
+
+- name: "invalid"
+  color: "e4e669"
+  description: "유효하지 않은 이슈"
+
+- name: "question"
+  color: "d876e3"
+  description: "질문" 

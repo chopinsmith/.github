@@ -1,0 +1,25 @@
+# 코드 소유자 설정
+# 이 파일은 코드 리뷰 요청을 자동으로 할 사람들을 지정합니다.
+
+# 기본 소유자 (모든 파일에 대해)
+* @admin-username
+
+# 특정 파일 타입별 소유자
+*.md @docs-team
+*.yml @devops-team
+*.yaml @devops-team
+
+# 특정 폴더별 소유자
+/.github/ @admin-username @devops-team
+/docs/ @docs-team
+/scripts/ @devops-team
+
+# 워크플로우 템플릿
+/workflow-templates/ @devops-team @admin-username
+
+# 프로필 페이지
+/profile/ @admin-username @marketing-team
+
+# 보안 관련 파일
+SECURITY.md @security-team
+.github/FUNDING.yml @admin-username 

@@ -1,0 +1,15 @@
+{
+  "name": "CI Workflow",
+  "description": "기본 CI 워크플로우 템플릿입니다. 테스트, 린팅, 빌드를 포함합니다.",
+  "iconName": "example-icon",
+  "categories": [
+    "ci",
+    "nodejs",
+    "javascript"
+  ],
+  "filePatterns": [
+    "package.json",
+    "*.js",
+    "*.ts"
+  ]
+} 

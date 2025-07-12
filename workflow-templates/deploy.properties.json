@@ -1,0 +1,15 @@
+{
+  "name": "Deploy Workflow",
+  "description": "프로덕션 배포를 위한 워크플로우 템플릿입니다.",
+  "iconName": "rocket",
+  "categories": [
+    "deployment",
+    "cd",
+    "production"
+  ],
+  "filePatterns": [
+    "package.json",
+    "*.js",
+    "*.ts"
+  ]
+} 

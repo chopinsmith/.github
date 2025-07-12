@@ -1,0 +1,71 @@
+name: 🚀 기능 요청
+description: 새로운 기능을 제안하고 싶으신가요?
+title: "[Feature] "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        기능 요청을 해주셔서 감사합니다! 🚀
+        
+        자세한 설명을 통해 더 나은 기능을 만들어보겠습니다.
+
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: 🤔 문제 상황
+      description: 어떤 문제나 불편함이 있으신가요?
+      placeholder: 예) 현재 ~를 할 때 ~한 불편함이 있습니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution-description
+    attributes:
+      label: 💡 제안하는 해결책
+      description: 어떤 해결책을 제안하시나요?
+      placeholder: 예) ~한 기능이 있다면 ~할 수 있을 것 같습니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 대안
+      description: 다른 해결 방법이나 대안이 있을까요?
+      placeholder: 예) ~한 방법도 고려해볼 수 있습니다.
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 📊 우선순위
+      description: 이 기능이 얼마나 중요하다고 생각하시나요?
+      options:
+        - 🔥 높음 (필수 기능)
+        - 🟡 보통 (있으면 좋은 기능)
+        - 🟢 낮음 (향후 고려사항)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: category
+    attributes:
+      label: 🏷️ 카테고리
+      description: 어떤 영역의 기능인가요? (복수 선택 가능)
+      options:
+        - label: 🎨 UI/UX 개선
+        - label: ⚡ 성능 향상
+        - label: 🔧 개발자 도구
+        - label: 🔒 보안 강화
+        - label: 📱 모바일 지원
+        - label: 🌐 접근성 향상
+        - label: 🔗 통합 기능
+        - label: 📊 분석/리포팅
+        - label: 🎯 기타
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📝 추가 정보
+      description: 스크린샷, 참고 자료, 또는 다른 관련 정보가 있다면 추가해주세요.
+      placeholder: 추가 정보가 있으면 여기에 작성해주세요... 

@@ -1,0 +1,35 @@
+# 후원 정보
+# 조직의 후원 정보를 설정하세요
+
+# GitHub 후원자 페이지 사용자명
+github: # your-github-username
+
+# Patreon 사용자명
+patreon: # your-patreon-username
+
+# Open Collective 사용자명
+open_collective: # your-open-collective-username
+
+# Ko-fi 사용자명
+ko_fi: # your-ko-fi-username
+
+# Tidelift 패키지명
+tidelift: # npm/your-package-name
+
+# Community Bridge 프로젝트명
+community_bridge: # your-project-name
+
+# Liberapay 사용자명
+liberapay: # your-liberapay-username
+
+# IssueHunt 사용자명
+issuehunt: # your-issuehunt-username
+
+# Otechie 사용자명
+otechie: # your-otechie-username
+
+# LFX Crowdfunding 프로젝트명
+lfx_crowdfunding: # your-lfx-crowdfunding-project-name
+
+# 커스텀 후원 URL (최대 4개)
+custom: # ["https://your-sponsor-url.com", "https://another-sponsor-url.com"] 

@@ -1,0 +1,81 @@
+name: 🐛 버그 리포트
+description: 버그를 발견하셨나요? 이 템플릿을 사용해 리포트해주세요.
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        버그 리포트를 작성해주셔서 감사합니다! 🙏
+        
+        가능한 한 자세히 작성해주시면 빠른 해결에 도움이 됩니다.
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: 🐛 버그 설명
+      description: 어떤 버그인지 명확하고 간결하게 설명해주세요.
+      placeholder: 예) 로그인 버튼을 클릭하면 오류가 발생합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: 🔄 재현 단계
+      description: 버그를 재현하는 단계를 알려주세요.
+      placeholder: |
+        1. '...'으로 이동
+        2. '...'를 클릭
+        3. '...'까지 스크롤
+        4. 오류 발생
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: ✅ 예상 결과
+      description: 어떤 결과를 예상하셨나요?
+      placeholder: 예) 정상적으로 로그인되어야 합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: ❌ 실제 결과
+      description: 실제로 어떤 일이 일어났나요?
+      placeholder: 예) 오류 메시지가 나타나고 로그인이 되지 않습니다.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: 🌐 브라우저
+      description: 어떤 브라우저를 사용하고 계신가요?
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - 기타
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: 💻 운영체제
+      description: 어떤 운영체제를 사용하고 계신가요?
+      placeholder: 예) Windows 11, macOS 13.0, Ubuntu 22.04
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📝 추가 정보
+      description: 스크린샷, 에러 로그, 또는 다른 관련 정보가 있다면 추가해주세요.
+      placeholder: 추가 정보가 있으면 여기에 작성해주세요... 
